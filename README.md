@@ -14,17 +14,3 @@ Breakout with AMS TSL4531 Digital Ambient Light Sensor.
 
 ## Shop
 * [TSL45315-Breakout](http://www.watterott.com/en/TSL45315-Breakout)
-
-
-## Hardware and Software
-* [Schematics + Layout](https://github.com/watterott/TSL45315-Breakout/tree/master/hardware)
-* [Arduino Example](https://github.com/watterott/TSL45315-Breakout/tree/master/software)
-
-* Arduino Library and Examples: [Makerblog_TSL45315](https://github.com/adidax/Makerblog_TSL45315)
-
-* Raspberry Pi Library and Examples: [WebIOPi TSL4531](http://webiopi.trouch.com)
-    ```
-    from webiopi.devices.sensor.tslXXXX import TSL45315
-    tsl = TSL45315(0x29)
-    lux = tsl.getLux()
-    ```
