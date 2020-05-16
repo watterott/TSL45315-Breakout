@@ -8,6 +8,9 @@
   Mega             20, 21
   Leonardo          2,  3
   Due              20, 21
+
+  Example source code free to use.
+  Further information: https://learn.watterott.com/license/
 */
 
 #include <Wire.h>
