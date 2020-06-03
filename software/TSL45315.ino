@@ -68,7 +68,6 @@ void loop()
   Wire.requestFrom(I2C_ADDR, 2); //request 2 bytes
   l = Wire.read();
   h = Wire.read();
-  while(Wire.available()){ Wire.read(); } //received more bytes?
   lux  = (h<<8) | (l<<0);
   lux *= 1; //M=1
   // lux *= 2; //M=2
